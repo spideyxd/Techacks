@@ -4,21 +4,23 @@ body {
   background-repeat: no-repeat;
   margin: 0;
   background-attachment: fixed;
+  backdrop-filter: blur(5px);
 }
 
 #card-group {
   cursor: pointer;
-  height: 350px;
-  width: 700px;
+  height: 45vh;
+  width: 50vw;
   display: flex;
   margin-top: 165px;
-  margin-left: 750px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 #card1 {
    transition: opacity 0.2s;
-  opacity: 0.65;
+  opacity: 1;
   border: 2px solid #c5c0c0;
   transition: transform 0.2s,opacity 0.7s;
   background: url(img/vikrant.jpeg);
@@ -29,7 +31,7 @@ body {
 }
 #card2 {
   transition: opacity 0.2s;
- opacity: 0.65;
+ opacity: 1;
  border: 2px solid #c5c0c0;
  transition: transform 0.2s,opacity 0.7s;
  background: url(img/shivam.jpg);
@@ -40,7 +42,7 @@ body {
 }
 #card3 {
   transition: opacity 0.2s;
- opacity: 0.65;
+ opacity: 1;
  border: 2px solid #c5c0c0;
  transition: transform 0.2s,opacity 0.7s;
  background: url(img/harshit.jpeg);
@@ -50,23 +52,31 @@ body {
  margin-left: 20px;
 }
 
+h1{
+  font-size: 3em;
+  font-family: 'PT Sans', sans-serif;
+  margin-left: 1vw;
+  color: white;
 
+}
 .name {
   /* background: black; */
 
   transition: opacity 0.6s;
   opacity: 0;
-  margin-top: 370px;
+  margin-top: 45vh;
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+  
 }
 
 .line {
   width: 0px;
   transition: width 0.6s;
   background-color: white;
-  margin-top: 25px;
+  margin-top: 1vh;
+  
   height: 1px;
 }
 
@@ -111,6 +121,7 @@ body {
 }
 
 input {
+  margin-left: 45vw;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -123,15 +134,15 @@ input {
   font-weight: 600;
   margin-top: 100px;
   transition: background-color 1s,color 1s;
-  margin-left: 1070px;
+  
 }
 
 #box {
   /* letter-spacing: 1px; */
   line-height: 1.9;
-  height: 370px;
+  height: 200px;
   /* margin-right: 100px; */
-  margin-left: 840px;
+  margin-left: 30vw;
   width: 500px;
   overflow: hidden;
   font-weight: bolder;
@@ -142,7 +153,7 @@ input {
   background-color: rgb(0, 0, 0);
   border: 1px solid #2c2c2c;
   font-family: "Rajdhani", sans-serif;
-  margin-top: 205px;
+  margin-top: 20vh;
   opacity: 0.6;
 }
 
