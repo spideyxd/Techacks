@@ -1,0 +1,156 @@
+body {
+  background: url(img/bg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  background-attachment: fixed;
+}
+
+#card-group {
+  cursor: pointer;
+  height: 350px;
+  width: 700px;
+  display: flex;
+  margin-top: 165px;
+  margin-left: 750px;
+}
+
+
+#card1 {
+   transition: opacity 0.2s;
+  opacity: 0.65;
+  border: 2px solid #c5c0c0;
+  transition: transform 0.2s,opacity 0.7s;
+  background: url(img/vikrant.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 200px;
+  margin-left: 20px;
+}
+#card2 {
+  transition: opacity 0.2s;
+ opacity: 0.65;
+ border: 2px solid #c5c0c0;
+ transition: transform 0.2s,opacity 0.7s;
+ background: url(img/shivam.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 200px;
+ margin-left: 20px;
+}
+#card3 {
+  transition: opacity 0.2s;
+ opacity: 0.65;
+ border: 2px solid #c5c0c0;
+ transition: transform 0.2s,opacity 0.7s;
+ background: url(img/harshit.jpeg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 200px;
+ margin-left: 20px;
+}
+
+
+.name {
+  /* background: black; */
+
+  transition: opacity 0.6s;
+  opacity: 0;
+  margin-top: 370px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.line {
+  width: 0px;
+  transition: width 0.6s;
+  background-color: white;
+  margin-top: 25px;
+  height: 1px;
+}
+
+
+#card3:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+#card3:hover .name {
+  opacity: 1;
+}
+
+#card3:hover .line {
+  width: 150px;
+}
+
+#card2:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+#card2:hover .name {
+  opacity: 1;
+}
+
+#card2:hover .line {
+  width: 150px;
+}
+
+#card1:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+#card1:hover .name {
+  opacity: 1;
+}
+
+#card1:hover .line {
+  width: 150px;
+}
+
+input {
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid #e7e7e7;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  margin-top: 100px;
+  transition: background-color 1s,color 1s;
+  margin-left: 1070px;
+}
+
+#box {
+  /* letter-spacing: 1px; */
+  line-height: 1.9;
+  height: 370px;
+  /* margin-right: 100px; */
+  margin-left: 840px;
+  width: 500px;
+  overflow: hidden;
+  font-weight: bolder;
+  color: white;
+  padding: 40px 32px;
+  text-align: left;
+  font-size: 18px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid #2c2c2c;
+  font-family: "Rajdhani", sans-serif;
+  margin-top: 205px;
+  opacity: 0.6;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.space {
+  height: 80px;
+}
